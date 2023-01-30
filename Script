@@ -17975,7 +17975,9 @@ end)
 
  local Paragraph = Tab:CreateParagraph({Title = "Credits", Content = "Credits To All The Script Owners"})
 
- local Paragraph = Tab:CreateParagraph({Title = "Good Executers", Content = "Paid - ScriptWare, Synapse X. Free - Krnl, Fluxus, Comet 3, Evon, Delta, Vega X, Encrypted V2, Electron, Zues X, Matcha, Kiwi X, Kiwi V2, Nihon, Dansploit, GRP Hub Xploit, Chronos X, Aspect, Omega X, Blackout, Nekto, River, Viper X, Zestra, KYXO, Furk Ultra, Oxygen U, Novaline, Coco Z, Spectrum, Sena's Ware, RealX, Origin, Trigon Evo, Noblesse, Proxo, Trigon Eye, Arceus x, Hydrogen, JJsploit.   "})
+ local Paragraph = Tab:CreateParagraph({Title = "Executer/Exploit List", Content = "Paid - ScriptWare, Synapse X. Free - Krnl, Fluxus, Comet 3, Evon, Delta, Vega X, Encrypted V2, Electron, Zues X, Matcha, Kiwi X, Kiwi V2, Nihon, Dansploit, GRP Hub Xploit, Chronos X, Aspect, Omega X, Blackout, Nekto, River, Viper X, Zestra, KYXO, Furk Ultra, Oxygen U, Novaline, Coco Z, Spectrum, Sena's Ware, RealX, Origin, Trigon Evo, Noblesse, Proxo, Trigon Eye, Arceus x, Hydrogen, JJsploit.   "})
+
+ local Paragraph = Tab:CreateParagraph({Title = "Recommended Executers/Exploits", Content = "Keyless - Valyse, Evon, DeltaV3, Spectrum, Vega X, Nihon, Novaline. Keysystem - Krnl, Fluxuxs, Comet 3, Dansploit, Trigon Evo, Oxygen U"})
 
  local Section = Tab:CreateSection("Info")
 
