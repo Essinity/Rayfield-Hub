@@ -674,6 +674,38 @@ MainFrameBeautyB.Visible = false
 
  local Tab = Window:CreateTab("Games", 4483362458) -- Title, Image
 
+ local Section = Tab:CreateSection("Michael's Zombies")
+
+ local Button = Tab:CreateButton({
+	Name = "MZ Gui",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Michael's%20Zombies/MichaelsZombiesGUI"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Gabe Scripts",
+	Callback = function()
+		getgenv().Key = "5b219680df6353bdaef9c3b46df6a4b10ac023d8";
+		loadstring(game:HttpGet("https://gabescripts.com/access.lua"))()		
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Zaps",
+	Callback = function()
+		_G.wl_key = "CHANGE THIS TO YOUR KEY"
+		loadstring(game:HttpGet('https://scripts.luawl.com/12695/MichaelsZombies.lua'))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Zaptosis",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/MichaelZombies.lua"))()
+	end,
+ })
+
  local Section = Tab:CreateSection("Break In")
 
  local Button = Tab:CreateButton({
