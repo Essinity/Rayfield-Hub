@@ -34,6 +34,21 @@ local Window = Rayfield:CreateWindow({
  local Section = Tab:CreateSection("Hubs")
 
  local Button = Tab:CreateButton({
+	Name = "Crazy Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/CrazyHub123/CrazyHubScripts/main/CrazyHubMain.lua'))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Cat Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/CxqDYXpw"))()
+
+	end,
+ })
+
+ local Button = Tab:CreateButton({
 	Name = "BatuhanG Hub",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/YtBatuhanG/roblox/main/BatuhanGHub"))()
@@ -1897,6 +1912,13 @@ local Button = Tab:CreateButton({
 
 
  local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
+
+ local Button = Tab:CreateButton({
+	Name = "Button Example",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/scripts/main/vadriftsbyp'),true))()
+	end,
+ })
 
  local Button = Tab:CreateButton({
 	Name = "Anti Kick",
@@ -13633,6 +13655,16 @@ local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;
 
 
  local Tab = Window:CreateTab("Admin", 4483362458) -- Title, Image
+
+ local Button = Tab:CreateButton({
+	Name = "Proton Admin",
+	Callback = function()
+-- DEFAULT CMD BAR PREFIX IS ;
+-- DEFAULT CHAT PREFIX IS /
+_G.UI_Id = "default" --set this to "default" for the default ui
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Proton%20Free'))()
+	end,
+ })
 
  local Button = Tab:CreateButton({
     Name = "IV Admin 3",
