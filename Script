@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 local Window = Rayfield:CreateWindow({
     Name = "Rayfield Hub",
     LoadingTitle = "Rayfield | The Future Of Exploiting",
-    LoadingSubtitle = "by Enxinity",
+    LoadingSubtitle = "by Enxinity | EnxicordBD#5834",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil, -- Create a custom folder for your hub/game
@@ -17,12 +17,12 @@ local Window = Rayfield:CreateWindow({
     KeySystem = true, -- Set this to true to use our key system
     KeySettings = {
        Title = "Rayfield Hub",
-       Subtitle = "Rayfield Hub Free",
-       Note = "key is : RAYFIELDHUBONTOP",
+       Subtitle = "Verification",
+       Note = "Joining My Discord Server Is Much Appreciated https://discord.gg/zqPw8EJF OR Dm me for invite Enxicord#5834 KEY IS:future",
        FileName = "RayfieldKey",
        SaveKey = true,
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = "RAYFIELDHUBONTOP"
+       Key = "future"
     }
  })
 
@@ -32,6 +32,17 @@ local Window = Rayfield:CreateWindow({
 
  local Tab = Window:CreateTab("Main", 4483362458) -- Title, 
  local Section = Tab:CreateSection("Hubs")
+
+ local Button = Tab:CreateButton({
+	Name = "Antix Hub",
+	Callback = function()
+-- https://raw.githubusercontent.com/rksssgthjuk7j66h/AntixHub/main/Games.lua
+
+repeat wait() until game:IsLoaded()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rksssgthjuk7j66h/AntixHub/main/Loader.lua"))()
+	end,
+ })
 
  local Button = Tab:CreateButton({
 	Name = "Crazy Hub",
@@ -703,6 +714,36 @@ MainFrameBeautyB.Visible = false
 
  local Tab = Window:CreateTab("Games", 4483362458) -- Title, Image
 
+ local Section = Tab:CreateSection("Build A Boat For Treasure")
+
+ local Button = Tab:CreateButton({
+	Name = "Vynixius",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "BABFT Gui",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "56 Clubs",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/silver-couscous/main/masage.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "NooVster",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/v1.1/main/Source'))()
+	end,
+ })
+
  local Section = Tab:CreateSection("Michael's Zombies")
 
  local Button = Tab:CreateButton({
@@ -752,6 +793,13 @@ MainFrameBeautyB.Visible = false
  })
 
  local Section = Tab:CreateSection("SCP 3008")
+
+ local Button = Tab:CreateButton({
+	Name = "GodMode",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/CHnamedata/WhatDaHeck/main/3008GodMode.lua'))()
+	end,
+ })
 
  local Button = Tab:CreateButton({
 	Name = "Script 1",
@@ -1914,14 +1962,42 @@ local Button = Tab:CreateButton({
  local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
 
  local Button = Tab:CreateButton({
-	Name = "Button Example",
+	Name = "Menu Editor",
+	Callback = function()
+		loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Fatality",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/tailgater/Fatality/main/Main"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Silent Aim",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/ROBLOX-Weapons-Kit-Silent-Aim/main/Main.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Universal Tool",
+	Callback = function()
+		loadstring(game:HttpGet("https://ipig.cf/scripts/universial-tool.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Animation Changer",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LunarWareOP/Animation-Changer-Source/main/Script", true))()
 	end,
  })
 
  local Button = Tab:CreateButton({
-	Name = "Button Example",
+	Name = "Vadrifts Bypasser",
 	Callback = function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/scripts/main/vadriftsbyp'),true))()
 	end,
@@ -18149,7 +18225,7 @@ end)
 
  local Section = Tab:CreateSection("Info")
 
- local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Creator - Enxinity/Essinity."})
+ local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Creator - Enxinity/Essinity,  Discord - ExnicordBD#5834"})
 
  local Section = Tab:CreateSection("Destroy Gui")
 
@@ -18161,5 +18237,3 @@ end)
  })
 
  local Section = Tab:CreateSection("The End")
-
- Rayfield:LoadConfiguration()
